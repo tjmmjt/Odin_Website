@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 10%;
 }
 
 .logo {
@@ -30,4 +30,59 @@ body {
 
 .menu li {
     padding-left: 18px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.head {
+    display: flex;
+    margin: 0;
+    padding: 24px 10%;
+    color: white;
+    background-color: #1f2937;
+}
+
+.left {
+    padding-right: 48px;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.head img {
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    border: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.25em 1em;
+    border-radius: .25em;
+}
+
+.button:hover {
+    background-color: #3882f6;
+    color: white ;
+    text-decoration: none;
 }
