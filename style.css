@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 15%;
 }
 
 .logo {
@@ -50,7 +50,7 @@ a:hover {
 .head {
     display: flex;
     margin: 0;
-    padding: 24px 10%;
+    padding: 4rem 15%;
     color: white;
     background-color: #1f2937;
 }
@@ -66,7 +66,7 @@ a:hover {
 
 .head img {
     width: 600px;
-    height: auto;
+    height: 250px;
     border-radius: 25px;
 }
 
@@ -82,7 +82,37 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #3882f6;
-    color: white ;
+    background-color: #0062ff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.content {
+    padding: 4rem 15%;
+    text-align: center;
+}
+
+.imagecontainer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    margin: 0;
+    padding: 20px;
+}
+
+.images {
+    text-align: center;
+    width: 200px;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    border-color: #0062ff;
+    border-radius: 15px;
 }
