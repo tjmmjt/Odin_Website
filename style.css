@@ -71,19 +71,24 @@ a:hover {
 }
 
 .button {
-    background-color: #3882f6;
-    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 72px;
+    height: 24px;
+    background-color:#3882f6;
     text-decoration: none;
-    border: white;
     font-size: 18px;
     font-weight: bold;
     padding: 0.25em 1em;
     border-radius: .25em;
 }
 
+
+
 .button:hover {
-    background-color: #0062ff;
-    color: rgb(255, 255, 255);
+    background-color: white;
+    color: #3882f6;
     text-decoration: none;
 }
 
@@ -115,4 +120,66 @@ a:hover {
     border: 3px solid;
     border-color: #0062ff;
     border-radius: 15px;
+}
+
+.testimonials {
+    padding: 0 20%;
+    margin-top: 12rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 20%;
+    margin-top: 200px;
+    padding: 40px;
+
+}
+
+.calltoaction .text {
+    color: white;
+    text-align: left;
+}
+
+.calltoaction .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calltoaction .button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 72px;
+    height: 24px;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.25em 1em;
+    border-radius: .25em;
+}
+
+.calltoaction .button:hover {
+    background-color: white;
+    color: #3882f6;
+    text-decoration: none;
 }
